@@ -4,6 +4,9 @@ import { OpenAI} from 'openai';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from "fs";
+import dotenv from 'dotenv';
+
+dotenv.config({path: '/workspaces/gpt-toolcalls-CharlieNeufeldtMIT/.env'});
 
 // Initialize Express server
 const app = express();
